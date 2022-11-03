@@ -3,5 +3,5 @@
         "editor.formatOnSave": false,
         "python.linting.pylintEnabled": "false"
     },
-    "postCreateCommand": "git submodule update --init && yarn setup && npm i grunt -g"
+    "postCreateCommand": "git submodule update --init && yarn setup && npm i grunt -g && echo `whoami` > who.txt"
 }
